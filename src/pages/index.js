@@ -127,7 +127,7 @@ const Home = () => {
   return (
     <div className='flex flex-col w-full min-h-screen bg-[#f2f2f2] lg:p-10 p-6 lg:gap-6 gap-4'>
 
-      <h1 className='lg:text-2xl text-xl text-[#121212] font-bold'>Shopping Cart</h1>
+      <h1 className='lg:text-2xl text-xl text-[#121212] font-bold text-center'>Shopping Cart</h1>
 
 
       <div className='flex flex-col lg:gap-6 gap-4 w-full'>
@@ -190,7 +190,7 @@ const Home = () => {
 
                 <p className='lg:text-base text-sm text-[#121212] font-medium'>Add <span className='font-semibold'>&#8377;{threshold - subTotal}</span> more to get a FREE Wirelss Mouse!</p>
 
-                <div className='w-full h-4 bg-slate-200 rounded-md-full relative overflow-hidden'>
+                <div className='w-full h-4 bg-slate-200 rounded-full relative overflow-hidden'>
 
                   <div style={{ width: `${progress}%` }} className='h-full absolute bg-blue-500 top-0 left-0' />
 
