@@ -139,7 +139,7 @@ const Home = () => {
 
           {
             products.map((item, index) => (
-              <div className='lg:w-1/4 shrink-0 flex flex-col lg:p-6 p-4 lg:gap-4 gap-2 bg-white rounded-md shadow'>
+              <div className='lg:w-1/4 w-full shrink-0 flex flex-col lg:p-6 p-4 lg:gap-4 gap-2 bg-white rounded-md shadow snap-center'>
 
                 <p className='lg:text-base text-sm text-[#121212]'>{item?.name}</p>
                 <p className='lg:text-base text-sm text-[#121212] font-semibold'>&#8377; {item?.price}</p>
